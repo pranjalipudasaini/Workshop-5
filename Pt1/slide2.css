@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Poppins;
+    background-color: #20214E;
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.heading{
+    padding-left: 450px;
+}
+.jimin{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    width: 400px;
+}
+.jimin img{
+    height: 590px;
+}
+.jimin .name{
+    padding-left: 100px;
+}
+.jimin .post{
+    padding-left: 105px;
+    font-weight: bold;
+}
+.jimin .date{
+    padding-left: 110px;
+    font-weight: bold;
+}
+.emma{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 460px;
+}
+.emma .name{
+    padding-left: 100px;
+}
+.emma .post{
+    padding-left: 130px;
+    font-weight: bold;
+}
+.emma .date{
+    padding-left: 140px;
+    font-weight: bold;
+}
+.hayley{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 390px;
+}
+.hayley .name{
+    padding-left: 100px;
+}
+.hayley .post{
+    padding-left: 170px;
+    font-weight: bold;
+}
+.hayley .date{
+    padding-left: 140px;
+    font-weight: bold;
+}
+@media screen and (max-width: 768px){
+    .container{height: 100%; width: 100%;}
+    .container {flex-direction: column;}
+    .container .jimin {width: 100vw; height:auto;}
+    .container .emma {width: 100vw; height:auto}
+    .container .hayley {width: 100vw; height:auto}
+}
