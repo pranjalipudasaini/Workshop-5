@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #487669;
+    color: azure;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+}
+.container .image{
+    width: auto;
+    height: auto;
+}
+.container .image img{
+    width: 700px;
+    height: 575px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.names{
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 130px;
+}
+.names h1{
+    font-family: Inter;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.names p{
+    font-family: Kulim Park;
+    font-size: 25px;
+}

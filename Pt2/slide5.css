@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #82acb1;
+    font-family: Inter;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.container .left h1{
+    font-size: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left:150px;
+}
+.container .left .address p{
+    padding-bottom: 30px;
+    padding-left: 150px;
+
+}
+.container .left .contact p{
+    padding-left: 150px;
+}
+.container .left .but{
+    padding-top: 40px;
+    padding-left: 150px;
+    margin-top: 10px;
+}
+.container .left .but button{
+    background-color: #FFA300;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.container .left .but button:hover{
+    color:  black;
+    background:#649471;
+}
+.container .image{
+    height: 200px;
+    width: 650px;
+}
+.container .image img{
+    height: 600px;
+    width: 550px;
+    padding-left: 170px;
+}
